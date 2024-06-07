@@ -117,19 +117,19 @@
         <div class="col-md-3">
             <div class="row">
                 <div class="col-md-6">
-                    <asp:Label ID="Label2" runat="server" Text="Patient Name" CssClass="Label"></asp:Label>
+                    <asp:Label ID="lbldate" runat="server" Text="Date" CssClass="Label"></asp:Label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                   <asp:TextBox ID="TextBox2" runat="server" placeholder="Enter patient name" CssClass="form-control Textbox"></asp:TextBox>
+                   <asp:TextBox ID="txtdate" runat="server" TextMode="Date" placeholder="Enter Date" CssClass="form-control Textbox"></asp:TextBox>
                 </div>
             </div>
         </div>
         <div class="col-md-3">
             <div class="row">
                 <div class="col-md-6">
-                    <asp:Label ID="Label3" runat="server" Text="Vital Statistics " CssClass="Label"></asp:Label>
+                    <asp:Label ID="lblobservations" runat="server" Text=" " CssClass="Label"></asp:Label>
                 </div>
             </div>
             <div class="row">

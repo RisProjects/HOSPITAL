@@ -139,31 +139,31 @@ namespace MalawiHealthCare {
         protected global::System.Web.UI.WebControls.TextBox txtfordepartment;
         
         /// <summary>
-        /// Label2 control.
+        /// lbldate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lbldate;
         
         /// <summary>
-        /// TextBox2 control.
+        /// txtdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtdate;
         
         /// <summary>
-        /// Label3 control.
+        /// lblobservations control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.Label lblobservations;
         
         /// <summary>
         /// TextBox3 control.

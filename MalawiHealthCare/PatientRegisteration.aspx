@@ -258,4 +258,13 @@
         </div>
        
     </div>
+    <br />
+       <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-3">
+             <asp:Button ID="btnsave" runat="server" Text="Save" CssClass="btn btn-success" Height="25px" Width="100px" />
+                </div>
+         
+       
+    </div>
 </asp:Content>
