@@ -129,12 +129,12 @@
         <div class="col-md-3">
             <div class="row">
                 <div class="col-md-6">
-                    <asp:Label ID="lblobservations" runat="server" Text=" " CssClass="Label"></asp:Label>
+                    <asp:Label ID="lblobservations" runat="server" Text="Observations" CssClass="Label"></asp:Label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <asp:TextBox ID="TextBox3" placeholder="Enter vital Statistics " runat="server" CssClass="form-control Textbox"></asp:TextBox>
+                    <textarea id="txtareaobservation" cols="20" rows="2" class="form-control"></textarea>
                 </div>
             </div>
         </div>

@@ -116,12 +116,12 @@
         <div class="col-md-3">
             <div class="row">
                 <div class="col-md-12">
-                    <asp:Label ID="lblpreexistingconditions" runat="server" Text="Pre-Existing Conditions" CssClass="Label"></asp:Label>
+                    <asp:Label ID="lblpreexistingconditions" runat="server"  Text="Pre-Existing Conditions" CssClass="Label"></asp:Label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-10">
-                    <textarea id="txtarea" cols="20" rows="2" class="form-control"></textarea>
+                    <textarea id="txtarea" cols="20" rows="2" placeholder="Enter Pre-Exisisting Conditions" class="form-control"></textarea>
                 </div>
             </div>
 
@@ -145,12 +145,12 @@
                 <div class="col-md-3">
             <div class="row">
                 <div class="col-md-12">
-                    <asp:Label ID="lblmedicalobligation" runat="server" Text="Medical Obligation" CssClass="Label"></asp:Label>
+                    <asp:Label ID="lblmedicalobligation" runat="server"  Text="Medical Obligation" CssClass="Label"></asp:Label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <textarea id="txtareamedicalobligation" cols="20" rows="2" Class="form-control"></textarea>
+                    <textarea id="txtareamedicalobligation" cols="20" placeholder="Enter Medical Obligations" rows="2" Class="form-control"></textarea>
                 </div>
             </div>
         </div>
@@ -167,7 +167,7 @@
             </div>
             <div class="row">
                 <div class="col-md-10">
-                    <asp:TextBox ID="txtbloodpressure" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
+                    <asp:TextBox ID="txtbloodpressure" placeholder="Enter blood pressure" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
                 </div>
             </div>
 
@@ -180,7 +180,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                     <asp:TextBox ID="txtweight" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
+                     <asp:TextBox ID="txtweight" runat="server" placeholder="Enter weight" CssClass="form-control Textbox" ></asp:TextBox>
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                     <asp:TextBox ID="txtheight" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
+                     <asp:TextBox ID="txtheight" runat="server" placeholder="Enter Height" CssClass="form-control Textbox" ></asp:TextBox>
                 </div>
             </div>
         </div>
@@ -209,7 +209,7 @@
             </div>
             <div class="row">
                 <div class="col-md-10">
-                    <textarea id="txtareaobservation" cols="20" rows="2" class="form-control"></textarea>
+                    <textarea id="txtareaobservation" cols="20" placeholder="Enter Observations" rows="2" class="form-control"></textarea>
                 </div>
             </div>
 
@@ -217,12 +217,12 @@
         <div class="col-md-3">
             <div class="row">
                 <div class="col-md-12">
-                    <asp:Label ID="lbluniqueid" runat="server" Text="Unique ID No." CssClass="Label"></asp:Label>
+                    <asp:Label ID="lbluniqueid" runat="server"  Text="Unique ID No." CssClass="Label"></asp:Label>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                     <asp:TextBox ID="txtuniqueidno" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
+                     <asp:TextBox ID="txtuniqueidno" placeholder="Enter unique ID" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
                 </div>
             </div>
         </div>
@@ -234,7 +234,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                     <asp:TextBox ID="Txtreferto" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
+                     <asp:TextBox ID="Txtreferto" placeholder="Enter Refer To" runat="server" CssClass="form-control Textbox" ></asp:TextBox>
                 </div>
             </div>
         </div>
