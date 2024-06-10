@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HMSMaster.master.cs" Inherits="HMSMalawi.HMSMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    
+    <title></title>
+    
+      <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        .main_menu {
+            width: 100px;
+            background-color: #8AE0F2;
+            color: #000;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-right: 5px;
+        }
+
+        .level_menu {
+            width: 110px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 5px;
+        }
+
+        .selected {
+            background-color: #852B91;
+            color: #fff;
+        }
+    </style>
+
+
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+
+            <div class="row"></div>
+
+            <div class="row" style="align-items: center">
+
+                <div class="col-md-10">
+                    <asp:Menu ID="menu_Items" runat="server" Orientation="Horizontal"
+                        OnMenuItemDataBound="OnMenuItemDataBound">
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle CssClass="main_menu" />
+                            <asp:MenuItemStyle CssClass="level_menu" />
+                        </LevelMenuItemStyles>
+                    </asp:Menu>
+
+                </div>
+
+
+              <%--  <div class="col-md-2">
+                    <asp:Menu ID="menu1" runat="server" Orientation="Horizontal"
+                        OnMenuItemDataBound="OnMenuItemDataBound">
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle CssClass="main_menu" />
+                            <asp:MenuItemStyle CssClass="level_menu" />
+                        </LevelMenuItemStyles>
+                    </asp:Menu>
+
+                </div>--%>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-md-12" style="margin-top: 20px">
+
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+            </div>
+
+
+        </div>
+    </form>
+</body>
+</html>
